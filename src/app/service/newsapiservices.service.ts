@@ -10,15 +10,15 @@ export class NewsapiservicesService {
 
   constructor(private _http: HttpClient ) { }
 
-  newsApiURL = " https://newsapi.org/v2/top-headlines?country=in&apiKey=4137403d35b748b5b278d1a903885d82";
+  newsApiURL = " give your api key";
 
-  techApiURL = "https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=4137403d35b748b5b278d1a903885d82";
+  techApiURL = " give your api key";
 
-  busniessApiURL = "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=4137403d35b748b5b278d1a903885d82";
+  busniessApiURL = " give your api key";
 
-  entertainmentApiURL = "https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=4137403d35b748b5b278d1a903885d82";
+  entertainmentApiURL = " give your api key";
   
-  sportsApiURL =  "https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=4137403d35b748b5b278d1a903885d82";
+  sportsApiURL =  " give your api key";
 
 
   topHeading():Observable<any>
